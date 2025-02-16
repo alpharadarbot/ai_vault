@@ -16,7 +16,7 @@ app.add_middleware(
 )
 
 # 掛載靜態文件目錄
-app.mount("/assets", StaticFiles(directory="dist/assets"), name="assets")
+app.mount("/images", StaticFiles(directory="dist/images"), name="images")
 # 掛載整個 dist 目錄作為靜態文件目錄
 app.mount("/", StaticFiles(directory="dist", html=True), name="static")
 
