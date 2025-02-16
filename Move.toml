@@ -1,0 +1,9 @@
+[package]
+name = "ai_vault"
+version = "1.0.0"
+
+[addresses]
+
+
+[dependencies]
+
